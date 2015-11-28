@@ -3957,3 +3957,1143 @@ Stack Trace:
 #2 {main}
 
 
+2015-11-27 19:20:22 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 19:20:24 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/b36cf53d-d47a-4577-8a30-f46bffc691e3
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 19:20:44 Error: [RuntimeException] Cannot insert row in "orders" table, it has no primary key.
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1445): Cake\ORM\Table->_insert(Object(Cake\ORM\Entity), Array)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1376): Cake\ORM\Table->_processSave(Object(Cake\ORM\Entity), Object(ArrayObject))
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(559): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\Database\Connection->transactional(Object(Closure))
+#4 C:\xampp\htdocs\cakephp\src\Controller\OrdersController.php(133): Cake\ORM\Table->save(Object(Cake\ORM\Entity))
+#5 [internal function]: App\Controller\OrdersController->home1('home1')
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#9 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2015-11-27 19:20:45 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 19:20:45 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/e9327478-a863-45f4-9e24-83e78767c064
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 19:33:22 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 19:33:22 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/b9187d34-8065-4252-94d1-75d79e5cea14
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 19:33:49 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 19:33:49 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/44110016-423a-449f-a2dd-2c037d05d466
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 19:33:57 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 19:33:57 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/f153a0d3-4c57-48ce-b1e3-526ce0799fdb
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 19:34:18 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 19:34:18 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/d53f9691-90d6-4c9b-943f-1424ceb29e3b
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 19:40:17 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 19:40:17 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/00ee2642-b472-417b-b2da-c5ef68d5afb4
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 19:41:17 Error: [RuntimeException] Cannot insert row in "orders" table, it has no primary key.
+Request URL: /cakephp/orders/home1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1445): Cake\ORM\Table->_insert(Object(Cake\ORM\Entity), Array)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1376): Cake\ORM\Table->_processSave(Object(Cake\ORM\Entity), Object(ArrayObject))
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(559): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\Database\Connection->transactional(Object(Closure))
+#4 C:\xampp\htdocs\cakephp\src\Controller\OrdersController.php(133): Cake\ORM\Table->save(Object(Cake\ORM\Entity))
+#5 [internal function]: App\Controller\OrdersController->home1()
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#9 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2015-11-27 19:41:18 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 19:41:18 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/22658bbf-be27-4c3e-8cc7-2520db265b82
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 19:41:46 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 19:41:46 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/a730e1a4-8800-4f80-aa6f-fe701450075b
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 19:45:16 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 19:45:16 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/00ee2642-b472-417b-b2da-c5ef68d5afb4
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 19:45:20 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 19:45:20 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/cecef83e-c41c-4e4b-9fb6-0428301abfc6
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 19:45:41 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 19:45:42 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/cecef83e-c41c-4e4b-9fb6-0428301abfc6
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 19:46:20 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /cakephp/orders/home1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1529): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1445): Cake\ORM\Table->_insert(Object(Cake\ORM\Entity), Array)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1376): Cake\ORM\Table->_processSave(Object(Cake\ORM\Entity), Object(ArrayObject))
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(559): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp\htdocs\cakephp\src\Controller\OrdersController.php(133): Cake\ORM\Table->save(Object(Cake\ORM\Entity))
+#11 [internal function]: App\Controller\OrdersController->home1()
+#12 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#15 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-11-27 19:46:21 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 19:46:21 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/0474fcf4-e9bd-42b8-82b9-bc30fe75084c
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 19:46:30 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 19:46:30 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/cecef83e-c41c-4e4b-9fb6-0428301abfc6
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 19:46:45 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 19:46:45 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/238fedba-35f7-4acd-9351-fc27809ee119
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 23:43:28 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 23:43:28 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/94614166-eb5b-4b80-990f-8f9c1c7c3c03
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 23:43:43 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 23:43:43 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/9ba53f84-7fcc-43b0-8e86-d56d916608be
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 23:44:28 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /cakephp/orders/home1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1529): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1445): Cake\ORM\Table->_insert(Object(Cake\ORM\Entity), Array)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1376): Cake\ORM\Table->_processSave(Object(Cake\ORM\Entity), Object(ArrayObject))
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(559): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp\htdocs\cakephp\src\Controller\OrdersController.php(133): Cake\ORM\Table->save(Object(Cake\ORM\Entity))
+#11 [internal function]: App\Controller\OrdersController->home1()
+#12 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#15 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-11-27 23:44:28 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 23:44:28 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/fd841b75-5388-4d99-8c80-35bef38e6da2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 23:51:43 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 23:51:44 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/9ba53f84-7fcc-43b0-8e86-d56d916608be
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 23:51:51 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 23:51:51 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/680f690f-e89b-4159-83f7-d6002bcec036
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 23:51:55 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 23:51:55 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/ad2eb81e-4513-498e-aa9a-f45f3c000edb
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 23:52:19 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /cakephp/orders/home1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1529): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1445): Cake\ORM\Table->_insert(Object(Cake\ORM\Entity), Array)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1376): Cake\ORM\Table->_processSave(Object(Cake\ORM\Entity), Object(ArrayObject))
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(559): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp\htdocs\cakephp\src\Controller\OrdersController.php(133): Cake\ORM\Table->save(Object(Cake\ORM\Entity))
+#11 [internal function]: App\Controller\OrdersController->home1()
+#12 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#15 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-11-27 23:52:19 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 23:52:19 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/4b3f0718-90ec-4d56-a2f7-e3cd228d91a8
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 23:53:45 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 23:53:45 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/ad2eb81e-4513-498e-aa9a-f45f3c000edb
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 23:55:12 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 23:55:12 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/d85c8a4e-e443-4033-b8ae-abe888833f50
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 23:55:32 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 23:55:33 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/93a86c69-fd52-45fa-be3b-3a673c41b064
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 23:56:18 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 23:56:18 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/092f1ae4-96ac-4a47-bc9d-1ba688173c83
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 23:56:29 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 23:56:29 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/a498bc5e-ffcf-47d2-837d-8c12c747f51d
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 23:56:38 Error: [Cake\View\Exception\MissingTemplateException] Template file "Orders\staff_login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Orders\\staff_login.ctp',
+)
+Request URL: /cakephp/orders/staff-login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(583): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#4 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-11-27 23:56:38 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 23:56:38 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/384144bb-5740-4d4f-ba83-0bbb8d5e35ab
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 23:57:15 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 23:57:15 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/a498bc5e-ffcf-47d2-837d-8c12c747f51d
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-27 23:57:17 Error: [Cake\View\Exception\MissingTemplateException] Template file "Orders\staff_login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Orders\\staff_login.ctp',
+)
+Request URL: /cakephp/orders/staff-login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(583): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#4 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-11-27 23:57:17 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-27 23:57:17 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/4a915376-e3d1-4d53-a43a-94137e022640
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:00:16 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:00:16 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/092f1ae4-96ac-4a47-bc9d-1ba688173c83
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:01:16 Error: [Cake\View\Exception\MissingTemplateException] Template file "Orders\staff_login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Orders\\staff_login.ctp',
+)
+Request URL: /cakephp/orders/staff-login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(583): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#4 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-11-28 00:01:16 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:01:16 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/aa2ae87f-46c9-4368-8911-074367865c0a
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:01:31 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:01:31 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/092f1ae4-96ac-4a47-bc9d-1ba688173c83
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:01:53 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:01:53 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/12d05bf3-211a-413a-b77d-ba85013c4209
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:01:55 Error: [Cake\View\Exception\MissingTemplateException] Template file "Orders\staff_login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Orders\\staff_login.ctp',
+)
+Request URL: /cakephp/orders/staff-login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(583): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#4 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-11-28 00:01:56 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:01:56 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/3d5ca202-cb8f-4226-b5d7-20ecb83f0ce0
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:02:31 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:02:31 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/12d05bf3-211a-413a-b77d-ba85013c4209
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:03:10 Error: [Cake\View\Exception\MissingTemplateException] Template file "Orders\staff_login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Orders\\staff_login.ctp',
+)
+Request URL: /cakephp/orders/staff-login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(583): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#4 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-11-28 00:03:10 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:03:10 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/c14559a5-ec48-49b5-900b-587a5083cc23
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:05:15 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:05:15 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/12d05bf3-211a-413a-b77d-ba85013c4209
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:05:29 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:05:30 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/b7505e41-14d3-45e9-9f47-6d4b4ac76b3c
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:05:37 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:05:37 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/045d8edd-7bcc-454b-9012-041e28865ed8
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:06:37 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:06:37 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/045d8edd-7bcc-454b-9012-041e28865ed8
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:06:42 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /cakephp/orders/home1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1529): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1445): Cake\ORM\Table->_insert(Object(Cake\ORM\Entity), Array)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1376): Cake\ORM\Table->_processSave(Object(Cake\ORM\Entity), Object(ArrayObject))
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(559): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp\htdocs\cakephp\src\Controller\OrdersController.php(133): Cake\ORM\Table->save(Object(Cake\ORM\Entity))
+#11 [internal function]: App\Controller\OrdersController->home1()
+#12 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#15 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-11-28 00:06:42 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:06:43 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/dc957acf-ec4e-43bb-8bf6-2499bfb62112
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:24:17 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /cakephp/orders/home1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1529): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1445): Cake\ORM\Table->_insert(Object(Cake\ORM\Entity), Array)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1376): Cake\ORM\Table->_processSave(Object(Cake\ORM\Entity), Object(ArrayObject))
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(559): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp\htdocs\cakephp\src\Controller\OrdersController.php(133): Cake\ORM\Table->save(Object(Cake\ORM\Entity))
+#11 [internal function]: App\Controller\OrdersController->home1()
+#12 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\OrdersController))
+#15 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-11-28 00:24:17 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:24:18 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/2d7749a6-6d22-4ec7-af66-49f5f4f12a30
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:24:57 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:24:57 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/045d8edd-7bcc-454b-9012-041e28865ed8
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:25:02 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:25:03 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/946dde79-9fc0-49ff-b997-62cbee8b88e1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:25:13 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:25:13 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/1dd38c76-2159-4c63-8d1d-d6b21cd51962
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:25:21 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:25:21 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/fc3ddbcc-a5f9-496f-9dcc-2ccf6109cdf5
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:25:32 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:25:32 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/2a4266f4-8672-4e33-baeb-0f36089d35f5
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:26:11 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:26:11 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/b8cbc609-8fa9-40b6-a421-459520790414
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:26:22 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:26:22 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/c8f99c0c-757d-43f7-9c02-c662b3cde249
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:26:26 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:26:26 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/f8f9abe6-52a6-4527-b8b7-38356681b5fb
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:26:32 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:26:32 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/e6a981b3-4318-426f-befa-242a6acdd464
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:29:57 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:29:57 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/6cd1491b-4e23-42b6-b075-89ddec035bd5
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:30:08 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:30:08 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/24b86f19-163a-4ba4-983e-c4aca53fc95d
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:31:00 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:31:00 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/61089a36-7137-4ff2-ad90-f6c01c109eda
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:32:27 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:32:27 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/61089a36-7137-4ff2-ad90-f6c01c109eda
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:34:38 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:34:38 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/61089a36-7137-4ff2-ad90-f6c01c109eda
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-28 00:39:20 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\cakephp\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-28 00:39:20 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /cakephp/debug_kit/toolbar/61089a36-7137-4ff2-ad90-f6c01c109eda
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
